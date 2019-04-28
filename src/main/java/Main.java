@@ -1,4 +1,8 @@
-import ChainOfResponsibility.ChainOfResponsibility;
+import Bridge.BridgeController;
+import Flyweight.FlyweightController;
+import Interpreter.InterpreterController;
+import Proxy.ProxyController;
+import Singleton.SingletonController;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +16,20 @@ public class Main {
 //        new AdapterController().startAction();
 //        new DecoratorController().startAction();
 //        new CommandController().startAction();
-        new ChainOfResponsibility().startAction();
+//        new ChainOfResponsibility().startAction();
+//        new MementoController().startAction();
+//        new MediatorController().startAction();
+//        new ObserverController().startAction();
+//        new StateController().startAction();
+//        new TemplateMethodController().startAction();
+//        new StrategyController().startAction();
+//        new VisitorController().startAction();
+//        new IteratorController().startAction();
+//        new ProxyController().startAction();
+//        new FlyweightController().startAction();
+//        new SingletonController().startAction();
+//        new BridgeController().startAction();
+        new InterpreterController().startAction();
     }
 
 }
